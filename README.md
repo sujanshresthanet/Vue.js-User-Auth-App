@@ -43,7 +43,7 @@ Make sure you have Vue CLI installed. If you haven’t set up a Vue.js project y
 
     
     npm install -g @vue/cli
-    vue user-auth-app
+    vue create user-auth-app
     cd user-auth-app
     
 
@@ -107,9 +107,9 @@ Project Components
 ------------------
 
 *   **UserLogin.vue**: Login form with email and password fields, redirects to the dashboard on success.
-*   **Register.vue**: Registration form to create new user credentials, saves to localStorage.
-*   **ForgotPassword.vue**: Simple forgot password form, simulates a reset link sent.
-*   **Dashboard.vue**: Displays a welcome message with the user's email and navigation options.
+*   **UserRegister.vue**: Registration form to create new user credentials, saves to localStorage.
+*   **UserForgotPassword.vue**: Simple forgot password form, simulates a reset link sent.
+*   **UserDashboard.vue**: Displays a welcome message with the user's email and navigation options.
 *   **UserProfile.vue**: Allows users to view and update their email and password.
 
 Using Bootstrap 5
