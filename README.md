@@ -54,7 +54,7 @@ Here’s the basic structure of the Vue.js application:
     user-auth-app/
     ├── src/
     │   ├── assets/
-    │   ├── views/
+    │   ├── components/
     │   │   ├── UserDashboard.vue
     │   │   ├── UserForgotPassword.vue
     │   │   ├── UserProfile.vue
@@ -76,7 +76,7 @@ To run the application in development mode, use the following command:
     npm run serve
     
 
-The app will be running at `http://localhost:8080`. Open this URL in your browser to see the application.
+The app will be running at `http://localhost:8080`. Open this URL in your browser to see the application. You can use the hardcoded username and password for login: 'user' and 'password', or use the username and password you created after registration.
 
 ### Build for Production
 

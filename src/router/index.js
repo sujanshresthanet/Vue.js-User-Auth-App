@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import UserRegister from '../views/UserRegister.vue';
-import UserLogin from '../views/UserLogin.vue';
-import UserDashboard from '../views/UserDashboard.vue';
-import UserProfile from '../views/UserProfile.vue';
-import UserForgotPassword from '../views/UserForgotPassword.vue';
+import UserRegister from '../components/UserRegister.vue';
+import UserLogin from '../components/UserLogin.vue';
+import UserDashboard from '../components/UserDashboard.vue';
+import UserProfile from '../components/UserProfile.vue';
+import UserForgotPassword from '../components/UserForgotPassword.vue';
 
 const routes = [
   { path: '/', redirect: '/login' },
