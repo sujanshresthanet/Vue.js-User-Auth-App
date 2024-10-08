@@ -38,6 +38,36 @@ To get started, clone the repository and install the dependencies:
 *   `src/main.js`: Main entry point for the Vue app.
 *   `public/index.html`: Base HTML file, includes Bootstrap 5.
 
+### Project Setup
+Make sure you have Vue CLI installed. If you haven’t set up a Vue.js project yet, you can do it using the following commands:
+
+    
+    npm install -g @vue/cli
+    vue user-auth-app
+    cd user-auth-app
+    
+
+
+### Directory Structure
+Here’s the basic structure of the Vue.js application:
+
+user-auth-app/
+├── src/
+│   ├── assets/
+│   ├── views/
+│   │   ├── UserDashboard.vue
+│   │   ├── UserForgotPassword.vue
+│   │   ├── UserProfile.vue
+│   │   ├── UserRegister.vue
+│   │   └── UserLogin.vue
+│   ├── App.vue
+│   ├── main.js
+│   └── router/
+│       └── index.js
+├── public/
+│   └── index.html
+└── package.json
+
 ### Running the Application
 
 To run the application in development mode, use the following command:
