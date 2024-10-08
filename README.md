@@ -13,7 +13,6 @@ Features
 *   **Forgot Password**: Simulates a password reset by sending a reset link.
 *   **Dashboard**: Displays a dashboard page for logged-in users.
 *   **UserProfile**: Shows the user's email (retrieved from local storage) and allows updating email and password.
-*   **Navigation**: The navigation bar updates based on the user's login status.
 
 Setup Instructions
 ------------------
@@ -35,7 +34,6 @@ To get started, clone the repository and install the dependencies:
 
 ### Project Structure
 
-*   `src/components`: Contains all the Vue components (Login, Register, Dashboard, UserProfile, ForgotPassword, Navigation).
 *   `src/router/index.js`: Vue Router configuration for navigation.
 *   `src/main.js`: Main entry point for the Vue app.
 *   `public/index.html`: Base HTML file, includes Bootstrap 5.
@@ -83,7 +81,6 @@ Project Components
 *   **ForgotPassword.vue**: Simple forgot password form, simulates a reset link sent.
 *   **Dashboard.vue**: Displays a welcome message with the user's email and navigation options.
 *   **UserProfile.vue**: Allows users to view and update their email and password.
-*   **Navigation.vue**: The navigation bar that updates based on the user's login status.
 
 Using Bootstrap 5
 -----------------
