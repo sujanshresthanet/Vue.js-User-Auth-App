@@ -27,8 +27,8 @@ Setup Instructions
 To get started, clone the repository and install the dependencies:
 
     
-    git clone https://github.com/your-repository-url.git
-    cd your-project-folder
+    git clone https://github.com/sujanshresthanet/User-Auth-App.git
+    cd User-Auth-App
     npm install
     
 
