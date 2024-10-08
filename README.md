@@ -51,22 +51,22 @@ Make sure you have Vue CLI installed. If you haven’t set up a Vue.js project y
 ### Directory Structure
 Here’s the basic structure of the Vue.js application:
 
-user-auth-app/
-├── src/
-│   ├── assets/
-│   ├── views/
-│   │   ├── UserDashboard.vue
-│   │   ├── UserForgotPassword.vue
-│   │   ├── UserProfile.vue
-│   │   ├── UserRegister.vue
-│   │   └── UserLogin.vue
-│   ├── App.vue
-│   ├── main.js
-│   └── router/
-│       └── index.js
-├── public/
-│   └── index.html
-└── package.json
+    user-auth-app/
+    ├── src/
+    │   ├── assets/
+    │   ├── views/
+    │   │   ├── UserDashboard.vue
+    │   │   ├── UserForgotPassword.vue
+    │   │   ├── UserProfile.vue
+    │   │   ├── UserRegister.vue
+    │   │   └── UserLogin.vue
+    │   ├── App.vue
+    │   ├── main.js
+    │   └── router/
+    │       └── index.js
+    ├── public/
+    │   └── index.html
+    └── package.json
 
 ### Running the Application
 
